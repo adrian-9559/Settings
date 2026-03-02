@@ -1,0 +1,152 @@
+{
+	// Configuración de la extensión Database Client
+	"database-client.autoSync": true,
+	// Configuración de GitHub Copilot
+	"github.copilot.nextEditSuggestions.enabled": true,
+	// No abrir repositorios Git en carpetas padre automáticamente
+	"git.openRepositoryInParentFolders": "never",
+	// Tabulaciones
+	"editor.tabSize": 4,
+	// Usar tabulaciones en lugar de espacios
+	"editor.insertSpaces": false,
+	// No detectar la indentación automáticamente
+	"editor.detectIndentation": false,
+	// Github config
+	"git.autofetch": true,
+	// Mostrar espacios en blanco
+	"editor.renderWhitespace": "all",
+	// Ajuste de línea
+	"editor.wordWrap": "on",
+	// Mostrar minimapa
+	"editor.minimap.enabled": true,
+	// Eliminar espacios en blanco al guardar
+	"files.trimTrailingWhitespace": true,
+	// Añadir una nueva línea al final del archivo al guardar
+	"files.insertFinalNewline": true,
+	// Configuración del explorador de archivos
+	"explorer.confirmDelete": false,
+	// Desactivar confirmación al mover archivos
+	"explorer.confirmDragAndDrop": false,
+	// Configuración del terminal integrado
+	"terminal.integrated.fontSize": 14,
+	// Configuración del editor
+	"workbench.startupEditor": "none",
+	// Tema de color
+	"workbench.colorTheme": "Default Dark Modern",
+	// Zoom del editor
+	"window.zoomLevel": 0.5,
+	// Configuración de la barra lateral
+	"workbench.sideBar.location": "left",
+	// Configuración de la barra de estado
+	"workbench.statusBar.visible": true,
+	// Configuración de las migas de pan
+	"breadcrumbs.enabled": true,
+	// Configuración de la búsqueda
+	"search.useIgnoreFiles": true,
+	// Configuración de la búsqueda global
+	"search.useGlobalIgnoreFiles": true,
+	// Configuración del formato al guardar
+	"editor.formatOnSave": true,
+	// Organizar importaciones al guardar
+	"editor.codeActionsOnSave": {
+		"source.organizeImports": "explicit"
+	},
+	// Configuración de las pestañas del editor
+	"workbench.editor.showTabs": "multiple",
+	// Resaltar pestañas modificadas
+	"workbench.editor.highlightModifiedTabs": true,
+	// Configuración del cursor
+	"editor.cursorSmoothCaretAnimation": "on",
+	// Suavizado del scroll
+	"editor.smoothScrolling": true,
+	// Configuración de las guías de indentación
+	"editor.guides.indentation": true,
+	// Configuración de los pares de corchetes
+	"editor.bracketPairColorization.enabled": true,
+	// Resaltar el par de corchetes
+	"editor.renderControlCharacters": true,
+	// Configuración de las sugerencias rápidas
+	"editor.quickSuggestions": {
+		"other": true,
+		"comments": false,
+		"strings": true
+	},
+	// Habilitar sugerencias rápidas en comentarios y cadenas
+	"editor.inlineSuggest.enabled": true,
+	// Habilitar scroll pegajoso
+	"editor.stickyScroll.enabled": true,
+	// No permitir scroll más allá de la última línea
+	"editor.scrollBeyondLastLine": false,
+	// Mostrar controles de plegado siempre
+	"editor.showFoldingControls": "always",
+	// Habilitar edición vinculada
+	"editor.linkedEditing": true,
+	// Excluir archivos y carpetas del explorador
+	"files.exclude": {},
+	// No compactar carpetas en el explorador
+	"explorer.compactFolders": false,
+	// Ordenar archivos por tipo en el explorador
+	"explorer.sortOrder": "type",
+	// Aumentar el historial del terminal
+	"terminal.integrated.scrollback": 10000,
+	// Aumentar el número máximo de solicitudes del agente de chat
+	"chat.agent.maxRequests": 100,
+	// Desactivar optimizaciones para archivos grandes
+	"editor.largeFileOptimizations": false,
+	// Configuración de Git
+	"git.confirmSync": false,
+	// Habilitar telemetría de Red Hat
+	"redhat.telemetry.enabled": true,
+	// Configuración de Prettier
+	"prettier.requireConfig": true,
+	// Configuración de ESLint
+	"eslint.validate": [
+		"javascript",
+		"javascriptreact",
+		"typescript",
+		"typescriptreact",
+		"vue",
+		"html"
+	],
+	// Configuración de EditorConfig
+	"editorconfig.enable": true,
+	// Configuración de la extensión Live Server
+	"liveServer.settings.port": 5500,
+	// Configuración de la extensión Path Intellisense
+	"path-intellisense.mappings": {
+		"@": "${workspaceFolder}/src"
+	},
+	// Habilitar sugerencias de rutas en importaciones
+	"path-intellisense.autoSlashAfterDirectory": true,
+	// Habilitar sugerencias de rutas en archivos HTML y CSS
+	"path-intellisense.showHiddenFiles": true,
+	// Establece la codificación predeterminada de los archivos a UTF-8.
+	"files.encoding": "utf8",
+	// Configuración de las reglas del editor
+	"editor.rulers": [
+		80,
+		100
+	],
+	// Configuración del terminal integrado para macOS
+	"terminal.integrated.defaultProfile.osx": "zsh",
+	"terminal.integrated.profiles.osx": {
+		"zsh": {
+			"path": "/bin/zsh"
+		}
+	},
+	/*_____________*/
+	/*| 42 HEADER |*/
+	/*-------------*/
+	// Configuración de la extensión 42header
+	"42header.email": "adriescr@student.42madrid.com",
+	"42header.username": "adriescr",
+	"workbench.colorCustomizations": {
+		"terminal.background": "#000000",
+		"terminal.foreground": "#ffffff",
+		"terminalCursor.background": "#e6eef3",
+		"terminalCursor.foreground": "#e6eef3",
+		"terminal.ansiBlue": "#60a5fa",
+		"terminal.ansiMagenta": "#8B5CF6",
+		"terminal.ansiCyan": "#2dd4bf"
+	}
+}
