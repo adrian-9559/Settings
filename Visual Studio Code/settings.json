@@ -149,4 +149,5 @@
 		"terminal.ansiMagenta": "#8B5CF6",
 		"terminal.ansiCyan": "#2dd4bf"
 	}
-}
+	},
+	"python.terminal.activateEnvironment": false
